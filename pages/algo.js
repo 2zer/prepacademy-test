@@ -9,4 +9,3 @@ export default function Algo() {
 
   console.log(closest)
 }
-
