@@ -14,3 +14,117 @@ a {
 * {
   box-sizing: border-box;
 }
+
+p {
+  padding: 0 20px
+}
+
+.relative {
+  position: relative
+}
+
+h1 {
+  font-size: 70px;
+  margin: 20px
+}
+
+h2 {
+  font-size: 50px;
+  margin: 20px
+}
+
+.row {
+  display: flex;
+  flex-direction:row
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-right {
+  align-items: flex-end;
+}
+
+
+
+header {
+  width: 100%;
+  max-width: 1000px;
+}
+
+header .left h1{
+  font-size: 20px;
+  margin: 10px 0 100px 0
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.bloc {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1000px;
+}
+.bloc .left {
+  width: 45%;
+  /*position: relative;*/
+}
+.bloc .right {
+  width: 55%;
+  background-color: lightgray;
+}
+
+.bloc .left img {
+  width: 100%;
+  height: 480px
+}
+
+.first .left .img-border {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -10
+}
+
+.first .right {
+  padding-top: 100px
+}
+
+div.orange {
+  background-color: orange;
+  display: inline-block;
+  float: right;
+  width: 40%;
+}
+
+div.orange p {
+  font-size: 20px;
+  color: white
+}
+
+div.grey {
+  background-color: grey;
+  display: inline-block;
+  width: 60%;
+}
+
+.cta {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px
+}
+
+footer p {
+  border-left: 2px solid blue
+}
