@@ -28,7 +28,7 @@ const Content = () => {
         </div>
         <div className="right">
           <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aperiam aut cupiditate deleniti .</p>
-          <CallToAction action={Algo}/>
+          <CallToAction action={Algo} text={'join now !'}/>
         </div>
       </div>
     </>
